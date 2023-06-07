@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa em JavaScript</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #E6C117;
+            color: #089992;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título para jornal</h1>
+
+    <p> Estou desafiando a maldição do "Olá, mundo" não colocando ele como título inicial. MUAHAHAHAHA</p>
+    <script>
+        var n1 = Number(window.prompt("Digite um número:"))
+        var n2 = Number(window.prompt("Digite outro número:")) 
+        var S = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${S}`)
+
+        // (number + number) para adição
+        // (string + string) para concatenação
+
+        /* String -> Número
+        
+           Number.parseInt(n) = converte o dado em número inteiro;
+           Number.parseFloat(n) = converte o dado em número real 
+           Number(n) = converte o dado no tipo de número apropriado */
+
+        /* Número -> String
+           
+           String(n)
+           n.toString() */
+    </script>
+</body>
+</html>
